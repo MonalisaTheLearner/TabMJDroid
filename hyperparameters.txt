@@ -1,0 +1,39 @@
+# TabMJDroid: Hyperparameter Configuration
+
+This file contains the hyperparameter settings used for training the proposed TabMJDroid framework.
+
+=========================================================
+TabNet Configuration
+====================
+
+Model                : TabNet
+Maximum Epochs       : 50
+Patience             : 10 (Early Stopping)
+Batch Size           : 512
+Virtual Batch Size   : 64
+Optimizer            : Adam
+Evaluation Metric    : Accuracy
+
+=========================================================
+LightGBM Configuration
+======================
+
+Model                : LightGBM
+Number of Estimators : 500
+Learning Rate        : 0.05
+Maximum Depth        : -1 (Automatic)
+Number of Leaves     : 31
+Subsample            : 0.80
+Column Sample by Tree: 0.80
+Minimum Child Samples: 20
+Objective Function   : Binary Classification
+Boosting Type        : GBDT
+
+=========================================================
+Experimental Settings
+=====================
+
+Training/Validation/Test Split : 70% / 15% / 15%
+Data Splitting Strategy         : Stratified Sampling
+Random Seed                     : 42
+Task                            : Binary Classification (Benign vs. Malware)
