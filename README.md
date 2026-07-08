@@ -145,6 +145,7 @@ To ensure reproducibility:
 ## Citation
 
 If you use this implementation in your research, please cite the corresponding publication.
+ DOI: 10.5281/zenodo.21255796 DOI: 10.5281/zenodo.21255796
 
 ---
 
