@@ -21,13 +21,12 @@ TabMJDroid/
 ├── hyperparameters.txt
 ├── preprocessing.py
 ├── TabMJDroid.ipynb
+├──LLM_Classification_validation.ipynb
 │
 ├── data/
 │   ├── train_data.csv
 │   ├── validation_data.csv
 │   └── test_data.csv
-│
-└── results/
 ```
 
 ---
